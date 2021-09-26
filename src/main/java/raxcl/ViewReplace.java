@@ -16,7 +16,7 @@ public class ViewReplace extends JFrame implements ActionListener {
     //执行脚本按钮
     JButton startButton = new JButton("点我开始生成！");
     //成功信息
-    JLabel successTip = new JLabel("生成功能，本程序即将销毁");
+    JLabel successTip = new JLabel("生成成功，本程序即将销毁");
     //关闭功能
     boolean closeFlag=false;
     Timer timer = new Timer(100,this);

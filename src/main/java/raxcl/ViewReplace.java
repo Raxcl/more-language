@@ -4,7 +4,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.net.URL;
 
 //新增可视化界面，让工具使用更加便捷
 public class ViewReplace extends JFrame implements ActionListener {
@@ -55,7 +54,6 @@ public class ViewReplace extends JFrame implements ActionListener {
         this.panel.add(successTip);
         //增加动作监听
         startButton.addActionListener(this);
-
     }
 
     //单击动作触发方法
